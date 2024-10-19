@@ -43,6 +43,7 @@ class Die {
         }
         textSize(30);
         text(this.value, this.x, this.y, this.size, this.size);
+        textAlign(CENTER,CENTER);
     }
 
     roll() {
